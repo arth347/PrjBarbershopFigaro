@@ -1,0 +1,41 @@
+body{
+    background: url("acesso_negado.png");
+    background-position: 50% 130%;
+ 
+}
+
+
+
+
+:root{
+    --cor-primaria-success : rgba(155, 39, 39, 0.933);
+    --cor-secundaria-success :rgba(255, 123, 0, 0.933);
+    --cor-hover-success :rgba(75, 8, 8, 0.933);
+}
+
+.btn{
+    border: none;
+    padding:10px ;
+    text-decoration: none;
+    cursor:pointer;
+    transition: background .3s;
+    border-radius: 5px;
+}
+
+.btn-success{
+    background-color: var(--cor-primaria-success);
+    outline: none ;
+    color: var(--cor-secundaria-success);
+    
+}
+
+.btn-success:hover {
+    background-color: var(--cor-hover-success)
+    
+}
+
+.btn-success:active {
+    color:white;
+    background-color: var(--cor-secundaria-success)
+    
+}

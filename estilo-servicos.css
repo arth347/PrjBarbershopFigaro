@@ -1,0 +1,17 @@
+.caixadeservicos{
+   display: flex;
+   justify-content: center;
+    
+}
+
+.container-redondo{
+    background-color: rgb(114, 114, 114);
+    width: 1000px;
+    height: 650px;
+    flex-direction: column;
+    border-radius: 50px;
+    margin-left:auto ;
+    margin-right: auto;
+    margin-top: 250px;
+}
+    
