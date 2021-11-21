@@ -6,6 +6,13 @@
         font-family: 'Alfa Slab One', cursive;
     }
 
+    .fonte3{
+        font-family: 'Pacifico', cursive;
+    }
+
+    .fonte4{
+        font-family: 'Be Vietnam Pro', sans-serif;
+    }
     h1{
         text-align: center;
         font-size: 10em;
@@ -19,7 +26,7 @@
         text-shadow: 4px 4px black;
     }
 
-    h3{
+    .h3 {
         
         font-size: 10em;
         color: #e5e5e5;
@@ -27,14 +34,43 @@
     }
 
 
-     body{
-        background-image:url(imgs/bg2.jpg);
+    .gradient{
+        display: flex;
+        flex-direction: column;
+        background: linear-gradient(to right top,#690f0f,#0e0142,#771212,#0e0142,
+        #7a1212,#0e0142,#771414,#0e0142,#771313,#0e0142,#851515,#0e0142);
+        background-size: 700% 700%;
+        animation: colors 50s ease infinite;
+        
+    }
+
+    @keyframes colors{
+        0%{
+            background-position:0% 50%;
+        }
+        50%{
+            background-position:100% 50%;
+        }
+        100%{
+            background-position:0% 50%;
+        }
+    }
+
+    /* body{
+        background-image:url(imgs/bg3.jpg);
         display:flex;
         flex-direction: column;
-    }
+    }*/
     
     .bg{
         background-image:url("imgs/bg.jpg");
+    }
+    .bg-config{
+            position: relative;
+            overflow: hidden;
+            background-repeat: no-repeat;
+            background-size: 200px 200px ;
+            background-position: top;
     }
     .alinhamento{
         display: block;
@@ -74,15 +110,13 @@
         
    }
 
-   .alinhamento-cx-txt-picapau{
+   .alinhamento-cx-txt-picapau {
     display: flex;
     align-self: center;
-    width: 30%;
-    height:350px;
-    margin-left:100px ;
+    height: 350px;
     border-radius: 80px 0px 0px 80px;
-
-   }
+    
+}
    .alinhamento-gif {
         display: flex;
         flex-direction: row;
@@ -90,13 +124,12 @@
    }
 
    .config-gif{
-       border-radius: 0 80px 80px 0px;
+       border-radius: 0 80px 80px 0px; 
+      
    }
-
    .container-custom{
-    background-color: #585b5e;
+    background-image:radial-gradient(rgb(87, 86, 86),rgb(78, 74, 74));
     border: none;
-    border-radius: 30px;
     width: 600px; ;
     height: 100px;
     box-shadow: 1px 1px 5px 6px #292e33;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
@@ -118,21 +151,44 @@
    }
 
    .background-2{
-       background-color:#343a40 ;
-       margin-left:10% ;
-       margin-right:10% ;
-       margin-top: 1%;
-       margin-bottom: 1%;
-       border-radius: 60px;
+        background-image:linear-gradient(to bottom,rgb(51, 51, 51),rgb(0, 0, 0));
+        margin-left:10% ;
+        margin-right:10% ;
+        margin-top: 1%;
+        margin-bottom: 1%;
+        border-radius: 60px;
    }    
 
-   .grid{
-    display:grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr ;
-    place-items:center;
-   }
 
-   .container-custom2{
+   .carousel-correcao{
+    background-color: black;
+    padding: 3.55% ;
+ }
+
+ .container-custom2{
+    background-image:linear-gradient(to bottom  ,rgb(61,61,61),rgb(53, 50, 50));
+    border: none;
+    border-radius: 30px;
+    width: 600px; ;
+    height: 600px;
+    box-shadow: 1px 1px 50px 10px #1d1c1c;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
     
-   }
+ }
+
+ .txt-beneficios{
+    color: #e5e5e5;
+    text-shadow: 4px 4px black;
+ }
+ 
+ .comentarios-head{
+     background-color:#585b5e ;
+     box-shadow: 1px 1px 5px 6px #222222;
+ }
+
+ .barberpole-gif{
+     background-image: url(imgs/barberpole.gif);
+     width: 400px;
+     height:800px;
+     background-size: cover;
+   
+ }

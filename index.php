@@ -13,7 +13,14 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
         <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
-        
+        <!--FONTE 3-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet"> 
+        <!--FONTE 4-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@1,600&display=swap" rel="stylesheet"> 
         <title>BarberShop Figaro</title>
         
     </head>
@@ -26,11 +33,12 @@
         }
     </style>
 
-    <body>
-        
+    <body class="gradient"> 
+       
         <?php include'navbar.php'?>
 
              <!--CAROUSEL-->
+             <div class="carousel-correcao"></div>
         <div>
             <div id="demo" class="carousel slide" data-ride="carousel">
 
@@ -65,9 +73,10 @@
 
         </div>   
             <!--🔽 conteudo do site é daqui pra baixo 🔽-->
-        <div class="background-2">
+           
+        <div class=" background-2">
             <div class="alinhamento-container-custom">
-                <div class="container-custom fonte2 alinhamento-txt-container-custom">
+                <div class="container-custom fonte4 alinhamento-txt-container-custom">
                     <h1>Conheça nossa Barbearia</h1>
                 </div>
             </div>
@@ -76,11 +85,11 @@
 
                 <div style="display:flex; justify-content:flex-start;">
                     <div class="bg alinhamento-cx-txt-picapau txtcentro fonte">
-                        <h2>Nossa história</h2>
-                        <h3> A nossa barbearia foi inspirada <br> 
-                            no desenho animado do pica pau,  <br> 
-                            em um episódio em que ele        <br> 
-                            faz um papel de barbeiro.       
+                        <h2>Nossa história <br>
+                        <h3 style="margin-top:10px;" class="h3"> A nossa barbearia foi inspirada <br> 
+                                                                no desenho animado do pica pau,<br>
+                                                                &nbsp;em um episódio em que ele faz um <br> 
+                                                                papel de barbeiro.&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
                         </h3>
                     </div>
 
@@ -92,28 +101,36 @@
 
             </div>
 
-                <div style="margin-bottom:50px;" class="container-custom2">
+                
                     
-                    <div style="margin-left:450px; margin-top:50px; margin-bottom:50px;" class="container-custom fonte2 alinhamento-txt-container-custom">
-                            <h1>Galeria</h1>
-                    </div>
-
+                    <div style="margin-left:24%; margin-top:50px; margin-bottom:50%; position:absolute;" class="container-custom2 fonte4 alinhamento-txt-container-custom">
+                        <div class="bg-config" style="background-image:url('imgs/logo.png');">
                             
+                                <h3 class="txt-beneficios" style="border-bottom-style:solid;border-bottom-width: 0px;padding-bottom: 0px;margin-bottom: 1000px;padding-top: 200px;padding-left: 88px;">
+                                &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;
+                                       <strong style="font-size:50px;">beneficios </strong> 
+                                        <br>
+                                        <br>
+                                    • Ótima localização. 🧭 <br><br>                    
+                                    • ótimos funcionários. 🤠  <br><br>                                                              
+                                    • Produtos de alta qualidade. 👍   <br><br>                                                              
+                                    • Pica-Pau 🥵<br>
+                                </h3>                                                                                                                                                              
+                        </div>
+                    </div>
+                                <div style="display:flex;">                     
+                                    <div style="margin-left:100px;" class="barberpole-gif bg-config"></div>   
 
-                        <div style="margin-right:120px;" class="container">
-                            <div class=" row grid ">
-                                    <i><div class="col-sm-3 bg-warning"><img src="imgs/galeria/semfoto.png" ></div></i>
-                                    <i><div class="col-sm-3 bg-warning"><img src="imgs/galeria/semfoto.png" ></div></i>
-                                    <i><div class="col-sm-3 bg-warning"><img src="imgs/galeria/semfoto.png" ></div></i>
-                                    <i><div class="col-sm-3 bg-warning"><img src="imgs/galeria/semfoto.png" ></div></i>                                       
-                            </div>
-                        </div>      
-                </div>
-                         
+                                    <div style="margin-left:800px;padding-right: 422px;" class="barberpole-gif bg-config"></div>
+                                </div>
+
+                        <div style="margin:100px 80px; background:red; width:90%; height:1000px;">
+
+                        </div>
 
                                 <!--COMENTARIOS SOBRE A BARBEARIA-->
-              <div style=margin-top:50px;>
-
+              <div class="comentarios-head fonte3" style=margin-top:50px;>
+                <h1>Comentários</h1>
                   <div class="comentarios fonte" style="display:flex; flex-direction:row">     
 
                       <div class="media border p-3">
