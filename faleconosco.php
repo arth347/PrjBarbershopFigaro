@@ -10,12 +10,25 @@
     </head>
 
 
-    <body>
+    <body class="gradient">
         <?php include'navbar.php' ?>
 
-        <div class="container p-3 my-3 bg-dark text-white container-redondo fonte">
-            <h1 style="font-family: 'Anton', sans-serif">fale conosco</h1>
+        <div style="margin-top:180px;" class="background-2">
+            <div class="txt-beneficios bg-config">
+                <h1 style="font-size:50px; font-family: 'Anton', sans-serif;padding-top: 50px;">fale conosco</h1>
+            </div>
+        <div class="alinhamento-icones">
+            <a class="icones" href="mailto:emailquenaoexiste@gmail.com"><img style="margin-left: 100px;"src="imgs/email.png"></a>
+            <a class="icones" href="tel:+551169696969"><img style="margin-left: 135px;"src="imgs/telefone.png"></a>
+        </div>
+
         </div>
     
     </body>
+    <footer>
+    <div>
+        <?php include 'footer.php' ?>
+    </div>
+    
+</footer>
 </html>

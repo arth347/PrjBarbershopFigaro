@@ -84,8 +84,8 @@
             <div style="margin-left:280px;">
 
                 <div style="display:flex; justify-content:flex-start;">
-                    <div class="bg alinhamento-cx-txt-picapau txtcentro fonte">
-                        <h2>Nossa história <br>
+                    <div class="bg-colorido alinhamento-cx-txt-picapau txtcentro fonte">
+                        <h2 style="font-size:50px;">Nossa história <br>
                         <h3 style="margin-top:10px;" class="h3"> A nossa barbearia foi inspirada <br> 
                                                                 no desenho animado do pica pau,<br>
                                                                 &nbsp;em um episódio em que ele faz um <br> 
@@ -123,12 +123,25 @@
 
                                     <div style="margin-left:800px;padding-right: 422px;" class="barberpole-gif bg-config"></div>
                                 </div>
-
-                        <div style="margin:100px 80px; background:red; width:90%; height:1000px;">
-
+                                <!--PRODUTOS-->
+                        <div class="container-custom2 fonte4 sombra" style="margin:100px 80px; width:90%; height:1000px;">
+                        <h1 style="padding:50px 50px 20px 50px; font-size:50px;">Produtos</h1>
+                        
+                          <div class="neon produtos" style="display:flex;flex-direction:column; margin-left:3%; padding-bottom:1%;">
+                            <div style="font-size:30px;margin-top: 368px;">
+                                <a href="" class="botao" style="font-size:30px;margin-left: 68px; ">Comprar</a>
+                                <a href="" class="botao" style="font-size:30px;margin-left: 106px;">Comprar</a>
+                                <a href="" class="botao" style="font-size:30px;margin-left: 207px;">Comprar</a>
+                                <a href="" class="botao" style="font-size:30px;margin-left: 213px;">Comprar</a>
+                            </div>
+                            <div style="margin-top: 119px;">
+                                <a href="" class="botao" style="font-size:30px;margin-left: 292px;">Comprar</a>
+                                <a href="" class="botao" style="font-size:30px;margin-left: 400px;">Comprar</a>
+                            </div>
+                          </div>
                         </div>
 
-                                <!--COMENTARIOS SOBRE A BARBEARIA-->
+            <!------------------------------COMENTARIOS SOBRE A BARBEARIA----------------------------------------------------------------------------------------------------------------->
               <div class="comentarios-head fonte3" style=margin-top:50px;>
                 <h1>Comentários</h1>
                   <div class="comentarios fonte" style="display:flex; flex-direction:row">     

@@ -33,21 +33,21 @@
         <nav style="font-family: 'Anton', sans-serif" class="navbar navbar-expand-sm bg-dark justify-content-center sticky-top claro fixo">
 
             <a class="navbar-brand" href="index.php">
-                <img src="imgs/logo.png" alt="Logo" style="width:80px;">
+                <img src="imgs/logo.png" alt="Logo" style="width:85px;">
             </a>
 
-            <ul class="navbar-nav ">
+            <ul style="font-size:25px;" class="navbar-nav ">
                 <li class="nav-item">
-                    <a class="nav-link" href="index.php">Início</a>
+                    <a style="padding:0px 15px;"class="nav-link" href="index.php">Início</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="servicos.php">Serviços</a>
+                    <a style="padding:0px 15px;"class="nav-link" href="servicos.php">Serviços</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="faleconosco.php">Fale conosco</a>
+                    <a style="padding:0px 15px;"class="nav-link" href="faleconosco.php">Fale conosco</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="login.php">login</a>
+                    <a style="color:red; font-size:20px; padding:10px;"class="nav-link" href="login.php">login</a>
                 </li>
 
                 <div>
@@ -61,6 +61,9 @@
    
 
     
+
+
+
 </body>
 
 

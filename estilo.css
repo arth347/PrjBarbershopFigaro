@@ -26,7 +26,7 @@
         text-shadow: 4px 4px black;
     }
 
-    .h3 {
+    h3 {
         
         font-size: 10em;
         color: #e5e5e5;
@@ -40,7 +40,7 @@
         background: linear-gradient(to right top,#690f0f,#0e0142,#771212,#0e0142,
         #7a1212,#0e0142,#771414,#0e0142,#771313,#0e0142,#851515,#0e0142);
         background-size: 700% 700%;
-        animation: colors 50s ease infinite;
+        animation: colors 45s ease infinite;
         
     }
 
@@ -65,6 +65,11 @@
     .bg{
         background-image:url("imgs/bg.jpg");
     }
+
+    .bg-colorido{
+        background-image:linear-gradient(to top ,rgb(0, 0, 0),rgb(61, 0, 0));
+    }
+
     .bg-config{
             position: relative;
             overflow: hidden;
@@ -132,7 +137,7 @@
     border: none;
     width: 600px; ;
     height: 100px;
-    box-shadow: 1px 1px 5px 6px #292e33;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+    box-shadow: 1px 1px 50px 10px #0a0a0a;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
     
    }
    
@@ -141,12 +146,14 @@
        justify-content: center;
        margin-top: 50px;
        margin-bottom: 50px;
+       
    }
 
    .alinhamento-txt-container-custom{
        display: flex;
        flex-direction: column;
        justify-content: space-around;
+
        
    }
 
@@ -171,7 +178,7 @@
     border-radius: 30px;
     width: 600px; ;
     height: 600px;
-    box-shadow: 1px 1px 50px 10px #1d1c1c;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+    box-shadow: 1px 1px 50px 10px #0a0a0a;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
     
  }
 
@@ -192,3 +199,54 @@
      background-size: cover;
    
  }
+ 
+.sombra{
+    box-shadow: 1px 1px 50px 10px #0a0a0a !important;
+}
+
+.neon{
+    box-shadow: 1px 1px 20px 10px #00d9ff, !important;
+    animation: neon 1s ease infinite;
+}
+
+@keyframes neon{
+    0%{
+        box-shadow: 1px 1px 20px 10px rgb(60, 209, 255);
+    }
+    25%{
+        box-shadow: 1px 1px 25px 10px rgb(60, 96, 255);
+    }
+   
+    50%{
+        box-shadow: 1px 1px 30px 10px rgb(135, 60, 255);
+    }
+    80%{
+        box-shadow: 1px 1px 25px 10px rgb(60, 96, 255);
+    }
+    100%{
+        box-shadow: 1px 1px 20px 10px rgb(60, 209, 255);
+    }
+}
+
+.produtos{
+    background-image: url(imgs/produtos.png);
+    background-size:100% 100%;
+    width:1285px; 
+    height:800px;
+    background-position:center;
+}
+
+.botao{
+    border-radius: 5px;
+    background-color: rgb(88, 88, 88);
+    padding:5px;
+    color:rgb(189, 189, 189);
+    text-shadow: 2px 2px black;
+}
+
+.botao:hover{
+    background-color: rgb(255, 0, 64);
+    color:rgb(255, 255, 255);
+    text-shadow: 2px 2px black;
+    text-decoration: none;
+}
