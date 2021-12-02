@@ -46,7 +46,6 @@
 </style>
 
 <body class="bg">
-   
     
         <div class="collapse" id="navbarToggleExternalContent">
             <div class="bg-dark p-4">
@@ -62,10 +61,23 @@
             </div>
         </nav>
 
-        
-            <div class="caixa texto-centralizado">
-                    <h1 class="txt-branco "> Bem-vindo Administrador!</h1>
-            </div>
+        <div style="border: black solid; border-radius:30px;background-color:gray; width:400px; height:100%;margin-left: 800px; margin-top:50px; padding:30px;">
+            <h1 style=" padding-bottom:10px;border: black solid;margin:0 20% 0 20%;background-color:darkgray;border-radius:30px;text-align:center;width:200px;">Cadastro de Clientes</h1>
+            <form style="display:flex; flex-direction:column; justify-content:center;"method="post" action="cadastra-servico.php" enctype="multipart/form-data">
+                <label>Nome do cliente:</label>
+                <input type="text" name="nomeCliente">
+                <br>
+                <label>Cpf:</label>
+                <input type="text" name="cpfCliente">
+                <br>
+                <label>Celular:</label>
+                <input type="text" name="celularCliente">
+                <div style="height:30px;"></div>
+                <input type="submit" value="cadastrar">
+            </form>
+        </div>
+
+            
        
                       
 

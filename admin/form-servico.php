@@ -27,7 +27,7 @@
     .bg2{
         background-color:#333333;
     }
-    .txt-branco{
+    body{
         color:white;
     }
     .texto-centralizado{
@@ -46,7 +46,7 @@
 </style>
 
 <body class="bg">
-   
+    <?php include_once('../controle.php')?>
     
         <div class="collapse" id="navbarToggleExternalContent">
             <div class="bg-dark p-4">
@@ -63,10 +63,58 @@
         </nav>
 
         
-            <div class="caixa texto-centralizado">
-                    <h1 class="txt-branco "> Bem-vindo Administrador!</h1>
-            </div>
-       
+        <div style="border: black solid; border-radius:30px;background-color:gray; width:400px; height:100%;margin-left: 800px; margin-top:50px; padding:30px;">
+            <h1 style=" padding-bottom:10px;border: black solid;margin:0 20% 0 20%;background-color:darkgray;border-radius:30px;text-align:center;width:200px;">Serviços</h1>
+            <form style="display:flex; flex-direction:column; justify-content:center;"method="post" action="cadastra-servico.php" enctype="multipart/form-data">
+                <label>Descrição:</label>
+                <input type="text" name="descServico">
+                <br>
+                <label>Texto:</label>
+                <input type="text" name="textoServico">
+                <br>
+                <label>Foto:</label>
+                <input type="file" name="fotoServico" >
+                <div style="height:30px;"></div>
+                <input type="submit" value="cadastrar">
+            </form>
+        </div>
+
+    <?php
+        require_once("../classes/Servico.php");
+        try {
+            $servico = new Servico();
+            $listaservico = $servico->listar();
+            
+        } catch(Exception $e) {
+            // echo '<pre>';
+            //     print_r($e);
+            // echo '</pre>';
+            echo $e->getMessage();
+        }
+    ?>
+
+    <h1>Lista de Serviços Cadastrados</h1>
+    <table style="background-color:gray; width:100%; height:100%;"class="table">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Descrição</th>
+                <th>Texto</th>
+                <th>Foto</th>
+                
+            </tr>
+        </thead>
+        <tbody id='resultado'>
+            <?php foreach ($listaservico as $linha){ ?>
+                <tr>
+                    <td><?php echo $linha['idservico'] ?></td>
+                    <td><?php echo $linha['descservico'] ?></td>
+                    <td><?php echo $linha['textoservico'] ?></td>
+                    <td><img src=" <?php echo $linha['fotoservico'] ?>" width="100px"></td>
+                </tr>
+            <?php } ?>
+        </tbody>
+    </table>
                       
 
         <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
