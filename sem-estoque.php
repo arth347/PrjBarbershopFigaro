@@ -8,7 +8,8 @@
     <title>Sem estoque</title>
 </head>
 <body class="gradient"style="background-color:red;">
-    <h1 style="font-size:50px;"><b>OPS! este produto está fora do estoque.</b></h1>
+    <div class=""> <h1 style="font-size:50px;"><b>OPS! este produto está fora do estoque.</b></h1>
     <h2><a href="index.php"><b>voltar</b></a></h2>
+        </div>
 </body>
 </html>
