@@ -29,7 +29,14 @@
         /* Make the image fully responsive */
         .carousel-inner img {
             width: 100%;
-            height: 500px;
+            height:90vh;
+            filter:blur(4px);
+           
+        }
+
+        .logo-central{
+            width:500px;
+            
         }
     </style>
 
@@ -38,42 +45,48 @@
         <?php include'navbar.php'?>
 
              <!--CAROUSEL-->
-             <div class="carousel-correcao"></div>
-        <div>
-            <div id="demo" class="carousel slide" data-ride="carousel">
-
-                
-                <ul class="carousel-indicators">
-                    <li data-target="#demo" data-slide-to="0" class="active"></li>
-                    <li data-target="#demo" data-slide-to="1"></li>
-                    <li data-target="#demo" data-slide-to="2"></li>
-                </ul>
-    
             
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="imgs/carroussel/cabelo3.png" alt="Los Angeles" width="1100" height="500">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="imgs/carroussel/cabelo2.png" alt="Chicago" width="1100" height="500">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="imgs/carroussel/cabelo.png" alt="New York" width="1100" height="500">
-                    </div>
-                </div>
-    
-            
-                <a class="carousel-control-prev" href="#demo" data-slide="prev">
-                    <span class="carousel-control-prev-icon"></span>
-                </a>
-                <a class="carousel-control-next" href="#demo" data-slide="next">
-                    <span class="carousel-control-next-icon"></span>
-                </a>
-            </div>
 
-        </div>   
+             <div>
+
+                    <div id="demo" class="carousel slide" data-ride="carousel">
+                        
+                        
+                        <ul class="carousel-indicators">
+                            <li data-target="#demo" data-slide-to="0" class="active"></li>
+                            <li data-target="#demo" data-slide-to="1"></li>
+                            <li data-target="#demo" data-slide-to="2"></li>
+                        </ul>
+                        
+                        
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="imgs/carroussel/barber3.png" alt="Los Angeles" width="1100" height="500">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="imgs/carroussel/barber2.png" alt="Chicago" width="1100" height="500">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="imgs/carroussel/barber.png" alt="New York" width="1100" height="500">
+                            </div>
+                        </div>
+                        
+                        
+                        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#demo" data-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </a>
+                    </div>
+                        
+             </div>
+
+         
             <!--🔽 conteudo do site é daqui pra baixo 🔽-->
            
+                <img style="position:absolute; margin-left:37%; margin-top:10%; "class="logo-central"src="imgs/logo3.png">
+            
         <div class=" background-2">
             <div class="alinhamento-container-custom">
                 <div class="container-custom fonte4 alinhamento-txt-container-custom">
