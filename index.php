@@ -148,8 +148,8 @@
                                 <a href="sem-estoque.php" class="botao" style="font-size:30px;margin-left: 213px;">Comprar</a>
                             </div>
                             <div style="margin-top: 119px;">
-                                <a href="" class="botao" style="font-size:30px;margin-left: 292px;">Comprar</a>
-                                <a href="" class="botao" style="font-size:30px;margin-left: 400px;">Comprar</a>
+                                <a href="sem-estoque.php" class="botao" style="font-size:30px;margin-left: 292px;">Comprar</a>
+                                <a href="sem-estoque.php" class="botao" style="font-size:30px;margin-left: 400px;">Comprar</a>
                             </div>
                           </div>
                         </div>
