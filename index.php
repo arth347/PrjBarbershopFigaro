@@ -162,7 +162,7 @@
                       <div class="media border p-3">
                           <img src="imgs/clientes/cliente1.png" alt="John Doe" class="mr-3 mt-3 rounded-circle" style="width:60px;">
                           <div class="media-body">
-                              <h4>Guilherme <small><i>Cliente ativo,des de dezembro de 2016</i></small></h4>
+                              <h4>Guilherme <small><i>Cliente ativo,desde dezembro de 2016</i></small></h4>
                               <p>Amo o pica pau. </p>
                               <p>★★★★★☆</p>
                           </div>
@@ -170,7 +170,7 @@
                      <div class="media border p-3">
                          <img src="imgs/clientes/cliente4.png" alt="John Doe" class="mr-3 mt-3 rounded-circle" style="width:60px;">
                          <div class="media-body">
-                             <h4>Leoncio <small><i>Cliente ativo des de janeiro de 2021</i></small></h4>
+                             <h4>Leoncio <small><i>Cliente ativo desde janeiro de 2021</i></small></h4>
                              <p>Bolina de gorfe. </p>
                              <p>★★★★☆☆</p>
                          </div>
@@ -178,7 +178,7 @@
                      <div class="media border p-3">
                          <img src="imgs/clientes/cliente3.png" alt="John Doe" class="mr-3 mt-3 rounded-circle" style="width:60px;">
                          <div class="media-body">
-                             <h4>Zeca urubu <small><i>Cliente ativo des de junho de 2018</i></small></h4>
+                             <h4>Zeca urubu <small><i>Cliente ativo desde junho de 2018</i></small></h4>
                               <p>Barbearia chave demais, dexaro meu cabelin na régua. </p>
                              <p>★★★★★★</p>
                          </div>
@@ -186,7 +186,7 @@
                      <div class="media border p-3">
                          <img src="imgs/clientes/cliente2.png" alt="John Doe" class="mr-3 mt-3 rounded-circle" style="width:60px;">
                          <div class="media-body">
-                             <h4>Pablo Escolar <small><i>Cliente ativo, des de setembro de 2018</i></small></h4>
+                             <h4>Pablo Escolar <small><i>Cliente ativo, desde setembro de 2018</i></small></h4>
                              <p>gostei do lugar, perto da minha casa </p>
                              <p>★★★★☆☆</p>
                          </div>
