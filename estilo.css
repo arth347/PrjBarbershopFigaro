@@ -247,3 +247,36 @@
     text-shadow: 2px 2px black;
     text-decoration: none;
 }
+
+.container-gigiodece{
+    background-image: linear-gradient(black, rgb(44, 44, 44));
+    width:1800px;
+    height: 900px;
+    margin:25px 25px;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    border-radius: 50px;
+}
+#gigiodc a{
+    color:blue;
+    text-decoration: none;
+  
+}
+
+#gigiodc a:hover{
+    transition: 0.2s;
+    color:rgb(121, 251, 255);
+    text-shadow: 5px 5px 1000px rgb(255, 255, 255),-5px 5px 1000px rgb(255, 255, 255),5px -5px 1000px rgb(255, 255, 255),-5px -5px 1000px rgb(255, 255, 255);
+}
+
+#gigiodc{
+    box-sizing: border-box;
+    width: 6ch;
+    border:solid 5px black;
+    margin-left:635px;
+    border-radius:50px;
+    text-align:center; 
+    font-family:fantasy;
+    background-image:linear-gradient(rgb(121, 121, 121),rgb(88, 88, 88));
+}
