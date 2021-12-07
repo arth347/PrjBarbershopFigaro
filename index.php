@@ -142,10 +142,10 @@
                         
                           <div class="neon produtos" style="display:flex;flex-direction:column; margin-left:3%; padding-bottom:1%;">
                             <div style="font-size:30px;margin-top: 368px;">
-                                <a href="" class="botao" style="font-size:30px;margin-left: 68px; ">Comprar</a>
-                                <a href="" class="botao" style="font-size:30px;margin-left: 106px;">Comprar</a>
-                                <a href="" class="botao" style="font-size:30px;margin-left: 207px;">Comprar</a>
-                                <a href="" class="botao" style="font-size:30px;margin-left: 213px;">Comprar</a>
+                                <a href="sem-estoque.php" class="botao" style="font-size:30px;margin-left: 68px; ">Comprar</a>
+                                <a href="sem-estoque.php" class="botao" style="font-size:30px;margin-left: 106px;">Comprar</a>
+                                <a href="sem-estoque.php" class="botao" style="font-size:30px;margin-left: 207px;">Comprar</a>
+                                <a href="sem-estoque.php" class="botao" style="font-size:30px;margin-left: 213px;">Comprar</a>
                             </div>
                             <div style="margin-top: 119px;">
                                 <a href="" class="botao" style="font-size:30px;margin-left: 292px;">Comprar</a>
